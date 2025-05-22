@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Goblin Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Paste your HTML from CodePen here -->
+<!-- Hover -->
+<div id="item-tooltip"></div>
+
+<!-- key spot-->
+<div id="drop-zone"></div>
+
+<!-- statua bar-->
+<div id="hud-panel">
+  <div id="status-bar">
+   <strong>Name:</strong>
+<span id="player-name" style="display: none;"></span>
+<input type="text" id="name-input" placeholder="Enter your name..." style="display: none; margin-left: 1rem;" />
+    <strong>Status:</strong> <span id="xp">XP: 0</span>
+  </div>
+</div>
+
+<!-- Equipment: top left -->
+<div id="equipment">
+  <h2>Equipped</h2>
+   <div id="equipment-container">
+  <div id="equipment-list" ></div>
+</div>
+</div>
+
+<!-- Inventory: top right -->
+<div id="inventory" class="panel draggable">
+  <h2>Inventory</h2>
+  <div id="inventory-container"> 
+    <ul id="inventory-list"></ul>
+  </div>
+</div>
+
+<!-- main story-->
+<div id="game-wrapper">
+<div id="story-frame">
+  <h1>The Orphan.... Goblins!!!!!</h1>
+  <div id="story"></div> 
+  <div id="choices-panel"> 
+    <div id="choices"></div>
+    </div>
+  <div id="item-description"></div>
+  
+</div>
+  
+  
+  
+ <footer id="footer-link">
+  <a href="https://ko-fi.com/dadzerdous" target="_blank" rel="noopener">A Creation of BS</a>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
